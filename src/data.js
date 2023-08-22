@@ -4,6 +4,7 @@ import { Icon } from "@iconify/react";
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
 
+
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
 import HeroDark from "./images/hero-dark.jpg";
@@ -15,7 +16,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "FacundoNuno";
 
 // Navbar Logo image
 export const navLogo = undefined;
@@ -52,8 +53,8 @@ export const skillData = [
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
+    skill: <Icon icon="cib:next-js"  className="display-4" />,
+    name: "Next.js",
   },
   {
     id: 5,
@@ -80,6 +81,11 @@ export const skillData = [
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 10,
+    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
+    name: "BootStrap",
+  },
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
@@ -89,7 +95,7 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["PI_Pokemon", "Portfolio", "MightyMonkeyPF"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 4-5)
 export const projectCardImages = [
@@ -104,4 +110,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/xqkvqbdk";

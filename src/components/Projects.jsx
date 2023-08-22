@@ -90,14 +90,14 @@ export default function Projects() {
               {data.length > 3 && (
                 <Container className="text-center mt-5">
                   <Link to="/All-Projects">
-                    <Button
+                    {/* <Button
                       size="lg"
                       variant={
                         theme === "light" ? "outline-dark" : "outline-light"
                       }
                     >
                       All <Icon icon="icomoon-free:github" /> Projects
-                    </Button>
+                    </Button> */}
                   </Link>
                 </Container>
               )}
