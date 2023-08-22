@@ -3,7 +3,9 @@ import { Icon } from "@iconify/react";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
-
+import mighty from "./images/mightyMokey.png"
+import pokemon from "./images/pokemon.png"
+import portfolio from "./images/portfolio.png"
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -100,8 +102,16 @@ export const filteredProjects = ["PI_Pokemon", "Portfolio", "MightyMonkeyPF"];
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 4-5)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "PI_Pokemon",
+    image: pokemon,
+  },
+  {
+    name: "Portfolio",
+    image: portfolio,
+  },
+  {
+    name: "MightyMonkeyPF",
+    image: mighty,
   },
 ];
 
