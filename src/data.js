@@ -3,9 +3,9 @@ import { Icon } from "@iconify/react";
 
 // Projects Images (add your images to the images directory and import below)
 
-import mighty from "./images/mighty.png"
-import pokemon from "./images/pokemon.png"
-import portfolio from "./images/portfolio.png"
+import mighty from "../build/static/media/mightyMonkey.01c585fb3c6567feba70"
+import pokemon from "../build/static/media/pokemon.5a75b23e44304ad2240e"
+import portfolio from "../build/static/media/portfolio.250e950a5a9ea06ef418"
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
