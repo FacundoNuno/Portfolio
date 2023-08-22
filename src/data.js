@@ -2,7 +2,7 @@
 import { Icon } from "@iconify/react";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+
 import mighty from "./images/mightyMonkey.png"
 import pokemon from "./images/pokemon.png"
 import portfolio from "./images/portfolio.png"
